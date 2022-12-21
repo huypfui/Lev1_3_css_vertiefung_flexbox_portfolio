@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+header {
+    width: 1440px;
+    height: 139px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 20px;
+    color: #4338CA;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+#kontaktButton {
+    border: 1px solid #4338CA;
+    background-color: #4338CA;
+    border-radius: 20px;
+    width: 162px;
+    height: 39px;
+}
+
+#kontaktButton a {
+    color: white;
+}
