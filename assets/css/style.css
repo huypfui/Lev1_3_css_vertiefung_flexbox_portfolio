@@ -12,7 +12,7 @@
 }
 
 header {
-    width: 1440px;
+    width: 100vw;
     height: 139px;
     display: flex;
     justify-content: space-between;
@@ -21,7 +21,7 @@ header {
 }
 
 header h1 {
-    font-size: 20px;
+    font-size: 4rem;
     color: #4338CA;
 }
 
@@ -41,4 +41,64 @@ nav a {
 
 #kontaktButton a {
     color: white;
+}
+
+/* Main Foto */
+
+main {
+    width: 100vw;
+    height: 1007px;
+}
+
+.hallo article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5vh 10vw;
+    margin: 5vh 10vw;
+}
+
+#willkommenBox {
+    padding: 5px;
+}
+
+#downloadCV {
+    border: 1px solid #4338CA;
+    background-color: #4338CA;
+    border-radius: 20px;
+    width: 162px;
+    height: 39px;
+}
+
+#downloadCV a {
+    text-decoration: none;
+    color: white;
+}
+
+main img {
+    size: 50%;
+}
+
+.ueberMich {
+    background-color: aliceblue;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.ueberMich article {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+#ueber {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#mich {
+    padding-left: 120px;
 }
