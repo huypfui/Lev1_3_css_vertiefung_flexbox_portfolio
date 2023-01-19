@@ -31,15 +31,11 @@ nav a {
     padding: 20px;
 }
 
-#kontaktButton {
+.kontaktButton {
     border: 1px solid #4338CA;
     background-color: #4338CA;
     border-radius: 20px;
-    width: 162px;
-    height: 39px;
-}
-
-#kontaktButton a {
+    padding: 20px;
     color: white;
 }
 
@@ -47,7 +43,7 @@ nav a {
 
 main {
     width: 100vw;
-    height: 1007px;
+    height: 100vh;
 }
 
 .hallo article {
@@ -55,26 +51,30 @@ main {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5vh 10vw;
-    margin: 5vh 10vw;
+/*     padding: 5vh 10vw;
+    margin: 5vh 10vw; */
+}
+
+.hallo article div p {
+    padding: 10px;
 }
 
 #willkommenBox {
     padding: 5px;
 }
 
-#downloadCV {
+/* .downloadCV {
     border: 1px solid #4338CA;
     background-color: #4338CA;
     border-radius: 20px;
     width: 162px;
     height: 39px;
-}
-
+} */
+/* 
 #downloadCV a {
     text-decoration: none;
     color: white;
-}
+} */
 
 main img {
     size: 50%;
@@ -84,14 +84,6 @@ main img {
     background-color: aliceblue;
     width: 100vw;
     height: 400px;
-    display: flex;
-    justify-content: center;
-}
-
-.ueberMich article {
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
 }
 
 #ueber {
